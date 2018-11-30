@@ -1,0 +1,61 @@
+.bg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.footer_tab {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  height: 2.5rem;
+}
+
+.margin_20 {
+  margin: 0 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.tab_itme img {
+  height: 1rem;
+}
+
+.tab_itme {
+  flex: 1;
+}
+
+.item-cn {
+  font-size: 0.55rem;
+  color: #666666;
+  line-height: 1.05rem;
+}
+
+.item-cn-active {
+  color: #2fb3f1;
+}
+
+.text-box {
+  text-align: center;
+  margin-top: .3rem;
+}
+
+.b_white {
+  background: white;
+}
